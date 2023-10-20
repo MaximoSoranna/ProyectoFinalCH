@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tienda de Juegos</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="store-title">Tienda de Juegos</h1>
+    </header>
+
+    <section class="products">
+        <div id="product-list" class="product-list">
+        </div>
+    </section>
+
+    <section class="cart">
+        <h2 class="cart-title">Carrito de Compras</h2>
+        <ul id="cart-list" class="cart-list">
+        </ul>
+        <p id="total" class="total">Total: $0.00</p>
+        <button id="checkoutButton" class="checkout-button">Pagar</button>
+    </section>
+    <section class="api-section">
+        <h2>Información de Juegos</h2>
+        <button id="fetchDataButton" class="fetch-data-button">Cargar Datos</button>
+        <div id="api-data" class="api-data">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Tienda de Juegos</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="Fetch.js"></script>
+</body>
+</html>
